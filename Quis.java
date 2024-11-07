@@ -12,9 +12,9 @@ public class Quis {
     public void getItem(String key){
         if (key == this.key){
             System.out.println(value);
+            System.out.println(key);
             
         }
-
         else{
           System.out.println("key tidak di temukan");   
         }
@@ -23,8 +23,8 @@ public class Quis {
 
     public void removeItem(String key){
         if (key == this.key){
-            value = "null";
             key = "null";
+            this.value = "null";
         }
         else{
             System.out.println("key tidak di temukan");

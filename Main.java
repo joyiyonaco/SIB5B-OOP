@@ -1,3 +1,8 @@
+// import Product.Electronics;
+// import Product.Product;
+// import Product.Fashion;
+
+
 public class Main {
     public static void main(String[] args) {
      // ProviderTelecom provider = new ProviderTelecom();
@@ -53,22 +58,27 @@ public class Main {
 
     // Local localStorage = new Local();
     // localStorage.setItem(10, "joy");
-    // // localStorage.getItem(10);
+    // localStorage.getItem(10);
     // localStorage.removeItem(10);
-    // localStorage.getItem(11);
+    // localStorage.getItem(10);
 
-    //quiz kukis
+    // quiz kukis
     Quis cookies = new Quis();
-    // cookies.setItem("token", "joyi", 30);
-    // cookies.getItem("token");
-
-    // cookies.removeItem("token");
-    // cookies.getItem("token");
+    cookies.setItem("token", "joyi", 30);
+    
+    cookies.removeItem("token");
+    cookies.getItem("token");
+    System.out.println(cookies.key);
 
     // cookies.expired(30);
-    // cookies.getItem(11);
     
-    System.out.println(cookies.key);
-   
+    // System.out.println(cookies.key);
+    
+    // new
+    // Electronics joy = new Electronics("iphone", "warna putih", 2500000, 2);
+    // joy.getInfo();
+
+    // Fashion ioi= new Fashion("rajut", "rajut", 90000, "m");
+    // ioi.getsize();
     }
 }
