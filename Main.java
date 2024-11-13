@@ -1,6 +1,9 @@
-// import Product.Electronics;
-// import Product.Product;
-// import Product.Fashion;
+import Product.Electronics;
+import Product.Product;
+import Product.Fashion;
+import Product.Food;
+import Product.Clothes;
+import Product.Handphone;
 
 
 public class Main {
@@ -63,22 +66,34 @@ public class Main {
     // localStorage.getItem(10);
 
     // quiz kukis
-    Quis cookies = new Quis();
-    cookies.setItem("token", "joyi", 30);
+    // Quis cookies = new Quis();
+    // cookies.setItem("token", "joyi", 30);
     
-    cookies.removeItem("token");
-    cookies.getItem("token");
-    System.out.println(cookies.key);
+    // cookies.removeItem("token");
+    // cookies.getItem("token");
+    // System.out.println(cookies.key);
 
     // cookies.expired(30);
     
     // System.out.println(cookies.key);
     
-    // new
+    //new
     // Electronics joy = new Electronics("iphone", "warna putih", 2500000, 2);
     // joy.getInfo();
 
-    // Fashion ioi= new Fashion("rajut", "rajut", 90000, "m");
+    // Fashion ioi = new Fashion("rajut", "rajut", 90000, "m");
     // ioi.getsize();
+    
+    // Handphone nai = new Handphone("redmi", "bagus", 240000, "xiomi", "hitam", 10);
+    // nai.getInfo();
+
+    // Clothes joyi = new Clothes("rajut", "lembut", 230000, "prada", "s", "pink");
+    // joyi.getsize();
+
+    Food apple = new Food("Apple", "Buah Apel Segar", 5000, "Fresh Brand", "Merah", false);       
+    apple.getInfo();
+    apple.displayExpirationInfo();
     }
+
+               
 }
